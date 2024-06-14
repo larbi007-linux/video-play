@@ -1,15 +1,23 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lire une Vidéo depuis Google Drive</title>
+    <title>Media Player</title>
 </head>
 <body>
-    <h1>Vidéo Intégrée depuis Google Drive</h1>
-    <video width="783" height="289" controls>
+
+    <!-- Audio Player -->
+    <audio controls>
+        <source src="https://sndup.net/bgbpj/d" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video Player -->
+    <video controls style="width: 783px; height: 289px;">
         <source src="https://drive.google.com/uc?export=download&id=1Et0GPlHOv8GHcLQkQUeoUbIh8bVpxlnB" type="video/mp4">
-        Votre navigateur ne supporte pas l'élément vidéo.
+        Your browser does not support the video element.
     </video>
+
 </body>
 </html>
